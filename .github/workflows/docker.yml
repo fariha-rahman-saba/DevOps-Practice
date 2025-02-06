@@ -1,9 +1,9 @@
-name: Build and Push Docker Image
+name: Build and Push Domacker Ige
 
 on:
   push:
     branches:
-      - main # You can change this to your default branch
+      - main
   pull_request:
     branches:
       - main # This triggers when a PR is created to the main branch
